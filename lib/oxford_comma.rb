@@ -7,7 +7,7 @@ def oxford_comma(array)
     when array.length >= 3
       last_item = array.pop
       string_list = array.join(", ")
-      string_list << " and #{last_item}"
+      string_list << ", and #{last_item}"
       string_list
   end
 end
