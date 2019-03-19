@@ -5,5 +5,7 @@ def oxford_comma(array)
       only_element
     when array.length == 2
       array.join(" and ")
+    when array.length >= 3
+      
   end
 end
