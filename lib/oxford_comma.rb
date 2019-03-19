@@ -1,6 +1,7 @@
 def oxford_comma(array)
   if array.length == 1
-    array.split
+    only_element = array.pop
+    only_element
   else
     
   end
