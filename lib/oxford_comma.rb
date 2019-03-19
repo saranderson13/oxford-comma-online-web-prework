@@ -3,7 +3,7 @@ def oxford_comma(array)
     when array.length == 1
       only_element = array.pop
       only_element
-    when array.length = 2
+    when array.length == 2
       array.split(" and ")
   end
 end
